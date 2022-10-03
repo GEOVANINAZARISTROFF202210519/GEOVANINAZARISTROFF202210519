@@ -1,0 +1,16 @@
+//Código retirado de video Youtube:https://www.youtube.com/watch?v=GB9acaxqM_k
+int main() {
+    //A função main pode retornar um inteiro para o sistema Operacional
+    printf("\nGeovani Nazari Stroff,Análise e desenvovimento de sistemas,Unilasalle,202210519\n");
+    //Imprimir(Nome completo,Curso,Universidade,Numero de matricula)
+    printf("\nQual_Opreração_deseja_realizar?\n");
+    //Imprimir pergunta para o usuário de qual operação deseja realizar
+    printf("\nOperadores:Soma(+),Multiplicação(*),Divisão(/),Potencialização(^)\n");
+    //Imprimir os operadores que o usuario pode utilizar
+    printf("\nOperação:23*2*12=?\n");
+    //imprimir a Operação que foi soliciatada junto com o operador escolido
+    printf("\nResultado:552\n");
+    //Imprimrir o resulatdo
+    return 0;
+    //Quebar o lop
+}
