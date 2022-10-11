@@ -1,0 +1,19 @@
+Código em C
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+//https://www.youtube.com/watch?v=IGqHNNSL_C0       - Codigo retirado do Video e modificado -
+int main(){
+	printf("\nGeovani Nazari Stroff, Analise e Desenvolvimento de Sistemas, Unilasalle,202210519\n");
+	printf("\nBem Vindo!!! Calculadora C\n");
+	printf("\nSomente sera possivel realizar RAIZ QUADRADA\n");
+	printf("\nPara realizar a raiz digite o numero na casa abaixo\n");
+	int n;
+	int resultado;
+	printf("Digite o numero: ");
+	scanf("%d", &n);
+	resultado = sqrt(n);
+	printf("A raiz desse numero é: %d\n", resultado);
+	system("pause");
+	return 0;
+	}
